@@ -120,4 +120,3 @@ Hardware requirements:
 MIT - see LICENSE file
   url={https://github.com/yourusername/finrag}
 }
-```
