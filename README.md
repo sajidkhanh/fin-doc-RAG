@@ -118,14 +118,6 @@ Hardware requirements:
 ## License
 
 MIT - see LICENSE file
-
-## Citation
-
-```bibtex
-@software{finrag2024,
-  title={FinRAG: Financial Document Retrieval and Generation},
-  author={Khan Hyder, Sajid},
-  year={2024},
   url={https://github.com/yourusername/finrag}
 }
 ```
