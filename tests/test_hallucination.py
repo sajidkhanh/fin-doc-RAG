@@ -206,7 +206,7 @@ class TestHallucinationDetection:
         reranked_rate = results["reranked"]["hallucination_rate"]
 
         logger.info(
-            f"\n✓ Strategy comparison:"
+            f"\n Strategy comparison:"
             f"\n  naive_dense: {naive_rate:.1%}"
             f"\n  hybrid: {results['hybrid']['hallucination_rate']:.1%}"
             f"\n  reranked: {reranked_rate:.1%}"
@@ -222,15 +222,15 @@ class TestHallucinationDetection:
 
         # 10 financial queries with ground-truth answers
         queries = [
-            "What is JPMorgan's largest business segment?",
+            "What is BAC's largest business segment?",
             "How much did JPMorgan earn in net income last year?",
-            "What are JPMorgan's main customer groups?",
-            "How does JPMorgan manage liquidity risk?",
+            "What are BAC's main customer groups?",
+            "How does Well's Fargo manage liquidity risk?",
             "What is JPMorgan's dividend policy?",
-            "How is JPMorgan organized by geography?",
-            "What technology does JPMorgan use for trading?",
+            "How is Well's Fargo organized by geography?",
+            "What technology does Well's Fargo use for trading?",
             "How many employees does JPMorgan have?",
-            "What are JPMorgan's regulatory capital requirements?",
+            "What are BAC's regulatory capital requirements?",
             "What are JPMorgan's climate risk disclosures?"
         ]
 
