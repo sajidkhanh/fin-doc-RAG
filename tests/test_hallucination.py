@@ -261,10 +261,10 @@ class TestHallucinationDetection:
             score = detector.detect(response["answer"], source_chunks)
 
             if score.hallucination_rate < 0.20:
-                logger.info(f"  ✓ PASS (hallucination rate: {score.hallucination_rate:.1%})")
+                logger.info(f"  PASS (hallucination rate: {score.hallucination_rate:.1%})")
                 passed += 1
             else:
-                logger.info(f"  ✗ FAIL (hallucination rate: {score.hallucination_rate:.1%})")
+                logger.info(f"  FAIL (hallucination rate: {score.hallucination_rate:.1%})")
                 failed += 1
 
         logger.info(f"\n{'='*70}")
