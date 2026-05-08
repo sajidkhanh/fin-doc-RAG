@@ -104,7 +104,7 @@ Fine-tuning: PEFT/LoRA adapter on FinQA dataset (6,251 Q-A pairs)
 | Dense | 50-70ms | 0.76 | 0.68 | 0.6234 |
 | Hybrid (RRF) | 100-150ms | 0.82 | 0.75 | 0.6412 |
 | Reranked | 300-450ms | 0.88 | 0.79 | 0.6834 |
-| **Full Evaluation (49 chunks)** | - | **75%** | **58%** | **1.0000** |
+| **Full Evaluation (49 chunks)** | | **0.75** | **0.58** | **1.000** |
 
 Evaluated on 12 targeted financial queries with perfect NDCG@10 = 1.0000 on 49-chunk dataset.
 
