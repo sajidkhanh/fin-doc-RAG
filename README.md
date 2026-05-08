@@ -46,6 +46,39 @@ FinRAG combines multiple retrieval strategies with local LLM inference to analyz
 - vs OpenAI GPT-4: 150-300/month at scale
 - 30-100x cheaper than API alternatives
 
+See RESULTS.md for detailed test outputs, live examples, and verification steps.
+
+## System Architecture
+
+```
+INPUT: Financial Query
+   |
+   v
+RETRIEVAL LAYER (3 strategies)
+   |---> Dense: pgvector cosine search (50-70ms)
+   |---> Hybrid: BM25 + dense + RRF (100-150ms)
+   |---> Reranked: Hybrid + Cohere cross-encoder (300-450ms)
+   |
+   v
+CHUNKING & RANKING
+   Top-5 retrieved chunks with scores
+   |
+   v
+GENERATION LAYER
+   Mistral 7B Q4 (Apple Metal GPU)
+   Format context -> Generate answer -> Add citations
+   Response: 3-9 seconds
+   |
+   v
+EVALUATION LAYER
+   Extract numerical claims (regex + spaCy NER)
+   Validate against sources (exact match + semantic similarity)
+   Detect contradictions
+   |
+   v
+OUTPUT: Answer with citations + hallucination score
+```
+
 ## Quick Start
 
 ```bash
