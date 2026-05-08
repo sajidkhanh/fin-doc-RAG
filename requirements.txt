@@ -1,0 +1,46 @@
+# Core dependencies
+psycopg2-binary==2.9.9
+python-dotenv==1.0.0
+numpy==2.2.6
+pandas==2.3.3
+
+# Embedding & NLP
+sentence-transformers==3.0.0
+spacy==3.7.2
+torch==2.2.0
+torchvision==0.17.0
+torchaudio==0.17.0
+
+# Vector search
+pgvector==0.2.4
+rank-bm25==0.2.2
+
+# LLM inference
+llama-cpp-python==0.2.56
+mistral-common==0.3.1
+
+# Reranking (optional)
+cohere==5.3.4
+
+# Fine-tuning
+peft==0.8.2
+transformers==4.37.2
+
+# API & web
+fastapi==0.109.0
+uvicorn==0.27.0
+
+# Utilities
+beautifulsoup4==4.12.2
+lxml==4.9.4
+requests==2.31.0
+tqdm==4.66.1
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# Development
+black==23.12.1
+flake8==6.1.0
+mypy==1.7.1
