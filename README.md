@@ -1,7 +1,5 @@
 # FinDocRAG: Numerical Hallucination Detection in Financial Document Retrieval
 
-**Sajid Khan Hyder**
-
 ## Abstract
 
 The FinDocRAG, a retrieval-augmented generation (RAG) system for financial document analysis with a novel numerical hallucination detector. The system combines three retrieval strategies (dense semantic search, hybrid BM25+RRF, Cohere-reranked) with local LLM inference (Mistral 7B Q4) and achieves 94% F1 on numerical claim extraction. The hallucination detector validates generated answers against source documents using exact match, contradiction detection, and semantic similarity (0.75 threshold), achieving 92% accuracy on moderate hallucination scenarios. Evaluated on 49 verified SEC 10-K chunks across 12 targeted financial queries, the system demonstrates perfect 1.0000 NDCG@10 with 75% Precision@5 and 58% Recall@10 across diverse financial queries. Code and evaluation scripts are available at https://github.com/sajidkhanh/fin-doc-RAG.
