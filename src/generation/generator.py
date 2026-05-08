@@ -31,7 +31,7 @@ RISK_CATEGORIES = [
 class FinancialGenerator:
     """
     Local LLM generator using Mistral 7B Instruct Q4_K_M.
-    Supports four task types matching JPMorgan Applied AI JD requirements:
+    Supports four task types:
       - summarization: section-level filing summarizer
       - classification: risk factor categorization
       - qa: intelligent search / grounded Q&A
