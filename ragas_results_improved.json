@@ -1,0 +1,405 @@
+{
+  "avg_ndcg": 1.0,
+  "avg_precision": 0.75,
+  "avg_recall": 0.5784600389863547,
+  "min_ndcg": 1.0,
+  "max_ndcg": 1.0,
+  "query_results": [
+    {
+      "query": "What are JPMorgan's primary credit risk factors and loan quality metrics?",
+      "ndcg_10": 1.0,
+      "precision_5": 1.0,
+      "recall_10": 0.5555555555555556,
+      "top_5_chunks": [
+        {
+          "ticker": "JPM",
+          "section": "risk_factors",
+          "score": 0.95
+        },
+        {
+          "ticker": "JPM",
+          "section": "quantitative_risk",
+          "score": 0.95
+        },
+        {
+          "ticker": "BAC",
+          "section": "risk_factors",
+          "score": 0.95
+        },
+        {
+          "ticker": "BAC",
+          "section": "quantitative_risk",
+          "score": 0.95
+        },
+        {
+          "ticker": "WFC",
+          "section": "risk_factors",
+          "score": 0.95
+        }
+      ]
+    },
+    {
+      "query": "Compare credit loss allowances across JPM, BAC, and WFC",
+      "ndcg_10": 1.0,
+      "precision_5": 0.0,
+      "recall_10": 0.0,
+      "top_5_chunks": [
+        {
+          "ticker": "JPM",
+          "section": "risk_factors",
+          "score": 0.6667
+        },
+        {
+          "ticker": "JPM",
+          "section": "mda",
+          "score": 0.6667
+        },
+        {
+          "ticker": "BAC",
+          "section": "risk_factors",
+          "score": 0.6667
+        },
+        {
+          "ticker": "BAC",
+          "section": "mda",
+          "score": 0.6667
+        },
+        {
+          "ticker": "WFC",
+          "section": "risk_factors",
+          "score": 0.6667
+        }
+      ]
+    },
+    {
+      "query": "Which bank has the highest nonperforming loan ratio?",
+      "ndcg_10": 1.0,
+      "precision_5": 1.0,
+      "recall_10": 0.8333333333333334,
+      "top_5_chunks": [
+        {
+          "ticker": "JPM",
+          "section": "financials",
+          "score": 0.88
+        },
+        {
+          "ticker": "JPM",
+          "section": "quantitative_risk",
+          "score": 0.88
+        },
+        {
+          "ticker": "BAC",
+          "section": "financials",
+          "score": 0.88
+        },
+        {
+          "ticker": "BAC",
+          "section": "quantitative_risk",
+          "score": 0.88
+        },
+        {
+          "ticker": "WFC",
+          "section": "financials",
+          "score": 0.88
+        }
+      ]
+    },
+    {
+      "query": "What are the total assets and equity for each major bank in 2023?",
+      "ndcg_10": 1.0,
+      "precision_5": 1.0,
+      "recall_10": 1.0,
+      "top_5_chunks": [
+        {
+          "ticker": "JPM",
+          "section": "financials",
+          "score": 0.92
+        },
+        {
+          "ticker": "BAC",
+          "section": "financials",
+          "score": 0.92
+        },
+        {
+          "ticker": "WFC",
+          "section": "financials",
+          "score": 0.92
+        },
+        {
+          "ticker": "JPM",
+          "section": "segment_data",
+          "score": 0.92
+        },
+        {
+          "ticker": "JPM",
+          "section": "segment_data",
+          "score": 0.92
+        }
+      ]
+    },
+    {
+      "query": "Compare return on equity (ROE) across the three banks",
+      "ndcg_10": 1.0,
+      "precision_5": 1.0,
+      "recall_10": 1.0,
+      "top_5_chunks": [
+        {
+          "ticker": "JPM",
+          "section": "financials",
+          "score": 0.92
+        },
+        {
+          "ticker": "BAC",
+          "section": "financials",
+          "score": 0.92
+        },
+        {
+          "ticker": "WFC",
+          "section": "financials",
+          "score": 0.92
+        },
+        {
+          "ticker": "JPM",
+          "section": "segment_data",
+          "score": 0.92
+        },
+        {
+          "ticker": "JPM",
+          "section": "segment_data",
+          "score": 0.92
+        }
+      ]
+    },
+    {
+      "query": "Analyze net interest income trends year-over-year",
+      "ndcg_10": 1.0,
+      "precision_5": 1.0,
+      "recall_10": 0.5263157894736842,
+      "top_5_chunks": [
+        {
+          "ticker": "JPM",
+          "section": "financials",
+          "score": 0.9
+        },
+        {
+          "ticker": "JPM",
+          "section": "mda",
+          "score": 0.9
+        },
+        {
+          "ticker": "BAC",
+          "section": "financials",
+          "score": 0.9
+        },
+        {
+          "ticker": "BAC",
+          "section": "mda",
+          "score": 0.9
+        },
+        {
+          "ticker": "WFC",
+          "section": "financials",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "query": "What are the CET1 capital ratios and regulatory compliance status?",
+      "ndcg_10": 1.0,
+      "precision_5": 1.0,
+      "recall_10": 0.8333333333333334,
+      "top_5_chunks": [
+        {
+          "ticker": "JPM",
+          "section": "financials",
+          "score": 0.88
+        },
+        {
+          "ticker": "JPM",
+          "section": "quantitative_risk",
+          "score": 0.88
+        },
+        {
+          "ticker": "BAC",
+          "section": "financials",
+          "score": 0.88
+        },
+        {
+          "ticker": "BAC",
+          "section": "quantitative_risk",
+          "score": 0.88
+        },
+        {
+          "ticker": "WFC",
+          "section": "financials",
+          "score": 0.88
+        }
+      ]
+    },
+    {
+      "query": "Compare leverage ratios and capital adequacy across banks",
+      "ndcg_10": 1.0,
+      "precision_5": 1.0,
+      "recall_10": 0.8333333333333334,
+      "top_5_chunks": [
+        {
+          "ticker": "JPM",
+          "section": "financials",
+          "score": 0.88
+        },
+        {
+          "ticker": "JPM",
+          "section": "quantitative_risk",
+          "score": 0.88
+        },
+        {
+          "ticker": "BAC",
+          "section": "financials",
+          "score": 0.88
+        },
+        {
+          "ticker": "BAC",
+          "section": "quantitative_risk",
+          "score": 0.88
+        },
+        {
+          "ticker": "WFC",
+          "section": "financials",
+          "score": 0.88
+        }
+      ]
+    },
+    {
+      "query": "How much excess capital do these banks have above minimums?",
+      "ndcg_10": 1.0,
+      "precision_5": 1.0,
+      "recall_10": 0.8333333333333334,
+      "top_5_chunks": [
+        {
+          "ticker": "JPM",
+          "section": "financials",
+          "score": 0.88
+        },
+        {
+          "ticker": "JPM",
+          "section": "quantitative_risk",
+          "score": 0.88
+        },
+        {
+          "ticker": "BAC",
+          "section": "financials",
+          "score": 0.88
+        },
+        {
+          "ticker": "BAC",
+          "section": "quantitative_risk",
+          "score": 0.88
+        },
+        {
+          "ticker": "WFC",
+          "section": "financials",
+          "score": 0.88
+        }
+      ]
+    },
+    {
+      "query": "Compare Corporate & Investment Banking segment revenues",
+      "ndcg_10": 1.0,
+      "precision_5": 1.0,
+      "recall_10": 0.5263157894736842,
+      "top_5_chunks": [
+        {
+          "ticker": "JPM",
+          "section": "financials",
+          "score": 0.9
+        },
+        {
+          "ticker": "JPM",
+          "section": "mda",
+          "score": 0.9
+        },
+        {
+          "ticker": "BAC",
+          "section": "financials",
+          "score": 0.9
+        },
+        {
+          "ticker": "BAC",
+          "section": "mda",
+          "score": 0.9
+        },
+        {
+          "ticker": "WFC",
+          "section": "financials",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "query": "What is the consumer banking deposit base for each bank?",
+      "ndcg_10": 1.0,
+      "precision_5": 0.0,
+      "recall_10": 0.0,
+      "top_5_chunks": [
+        {
+          "ticker": "WFC",
+          "section": "business",
+          "score": 0.55
+        },
+        {
+          "ticker": "JPM",
+          "section": "risk_factors",
+          "score": 0.5
+        },
+        {
+          "ticker": "JPM",
+          "section": "quantitative_risk",
+          "score": 0.5
+        },
+        {
+          "ticker": "BAC",
+          "section": "business",
+          "score": 0.5
+        },
+        {
+          "ticker": "BAC",
+          "section": "mda",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "query": "Analyze wealth management AUM and client metrics",
+      "ndcg_10": 1.0,
+      "precision_5": 0.0,
+      "recall_10": 0.0,
+      "top_5_chunks": [
+        {
+          "ticker": "BAC",
+          "section": "mda",
+          "score": 0.6071
+        },
+        {
+          "ticker": "JPM",
+          "section": "business",
+          "score": 0.5357
+        },
+        {
+          "ticker": "BAC",
+          "section": "business",
+          "score": 0.5357
+        },
+        {
+          "ticker": "JPM",
+          "section": "quantitative_risk",
+          "score": 0.4643
+        },
+        {
+          "ticker": "WFC",
+          "section": "mda",
+          "score": 0.4643
+        }
+      ]
+    }
+  ]
+}
